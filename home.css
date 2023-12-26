@@ -5,9 +5,6 @@ body {
     width: 100%;
 
 }
-
-
-
 .top-bar{
     top: 0;
     width: 100%;
@@ -18,11 +15,9 @@ body {
     align-items: center;
 
 }
-
 .top-bar h2{
     margin: 20px;
 }
-
 .navbar{
     align-items: center;
 }
@@ -37,21 +32,25 @@ body {
 
 .about-me-left{
     float: left;
-    height: 100%;
+    height: 0;
     width: 50%;
-    background-color: #f0f0f0;
+    padding-bottom: 50%;
+    display: flex;
+    
 
 }
 
 .about-me-left-para{
-    font-size: 20px;
-    width: 65%;
-    height: 100% ;
-    margin: 230px auto 0px;
-    align-items: center;
-    line-height: 25px;
+    width: 75%;
+        height: 100% ;
+        margin: 40px auto 60px;
+        align-items: center;
+        line-height: 20px;
 
+}
 
+p{
+    font-size: 15px;
 }
 
 .about-me-rigth{
@@ -65,31 +64,52 @@ body {
 }
 
 .pic{
-    height: 100%;
+
     width: 100%;
+    height: 100%;
+
+    align-items: center;
+
+
+
 
 
 }
+
+
 .mypic{
-    height: 100vh;
-    width: 100%;
-
-    background-color: #f0f0f0;
 
 
-
+ 
 
 }
 
 .div-main{
     display: block;
     width: 100%;
-    height: 100vh ;
+    height: 0;
+    padding-bottom: 50%;
     background-color: #f0f0f0;
-    aspect-ratio: 1/1;
+
+
+
+
+  
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 800px){
+    .about-me-left-para{
+    margin: 140px auto 60px;
+    }
+
+    .about-me-left-para{
+        font-size: 25px;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
 
     body{
         width: auto;
@@ -106,7 +126,7 @@ body {
 
     .about-me-left-para{
         font-size: 15px;
-        width: 65%;
+        width: 75%;
         height: 100% ;
         margin: 60px auto 60px;
         align-items: center;
@@ -117,18 +137,19 @@ body {
     
     }
 
-    .mypic{
-
-
-    }
-
     .pic{
     
         height: 100%;
         width: 100%;
     }
+
+    .mypic{
+
+
+    }
     .div-main {
       display: grid;
+      height: 700px;
 
 
 
