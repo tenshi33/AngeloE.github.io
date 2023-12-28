@@ -59,22 +59,12 @@ p{
     float: right;
     height: auto ;
     width: 50%;
-    height: 100%;
-
-
-    
+    height: 100%; 
 }
 .pic{
-
     width: 100%;
     height: 100%;
-
     align-items: center;
-
-
-
-
-
 }
 .div-main{
     display: block;
@@ -82,11 +72,6 @@ p{
     height: 0;
     padding-bottom: 50%;
     background-color: #f0f0f0;
-
-
-
-
-  
 }
 @media screen and (min-width: 800px){
     .about-me-left-para{
@@ -97,8 +82,6 @@ p{
         font-size: 25px;
     }
 }
-
-
 @media screen and (max-width: 630px) {
 
     body{
@@ -191,44 +174,28 @@ p{
     width: 100%;
 }
 }
-
-    
-
 .div-main-work{
     display: block;
     width: 100%;
-    height: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    background-color: rgb(255, 255, 255);
 
 }
-
 .work-left{
     float: left;
     width: 50%;
     height: 100%;
 }
-
 .LogoApp{
     width: 100%;
     height: 100%;
-
-
-
 }
-
 .work-rigth{
     float: right;
     height: 100%;
     width: 50%;
-    margin-block: 15%;
-
-
-
-    
-}
-
+    margin-block: 15%;  }
 .work-right-para{
-
     margin-inline: 20%;
-
-
 }
