@@ -156,35 +156,47 @@ p{
 
 
     .div-main-work{
+        width: 100%;
         display: grid;
-      height: 500px;
+        height: 900px;
+        padding: 0;
 
 
 
 
   }
 
-  .work-rigth{
+.work-left-pic{
+    height: auto;
     width: 100%;
 }
 .work-left{
     width: 100%;
 }
 
-.work-right-para{
-    font-size: 15px;
-    width: 75%;
-    height: 100% ;
-    margin: 20px auto ;
-    align-items: center;
-    line-height: 20px;
+.LogoApp{
+    height: 100%;
+    width: 100%;
+}
+
+.work-rigth{
+    width: 100%;
+    height: 100%;
+    margin-block: 0;
+
 
 }
 
-.LogoApp{
+.work-right-para{
+    margin-inline: 20%;
+    margin-top: 20%;
 
-    height: 100%;
-    width: 100%;
+}
+
+
+
+h1{
+    margin: 0;
 }
 }
 
