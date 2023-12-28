@@ -48,9 +48,8 @@ body {
 .about-me-left-para{
     width: 75%;
         height: 100% ;
-        margin: 40px auto 60px;
-        align-items: center;
         line-height: 20px;
+        margin-inline: 20%;
 
 }
 p{
@@ -151,10 +150,6 @@ p{
         width: 100%;
     }
 
-    .mypic{
-
-
-    }
     .div-main {
       display: grid;
       height: 500px;
@@ -162,42 +157,78 @@ p{
 
 
     }
+
+
+    .div-main-work{
+        display: grid;
+      height: 500px;
+
+
+
+
   }
+
+  .work-rigth{
+    width: 100%;
+}
+.work-left{
+    width: 100%;
+}
+
+.work-right-para{
+    font-size: 15px;
+    width: 75%;
+    height: 100% ;
+    margin: 20px auto ;
+    align-items: center;
+    line-height: 20px;
+
+}
+
+.LogoApp{
+
+    height: 100%;
+    width: 100%;
+}
+}
 
     
 
 .div-main-work{
     display: block;
     width: 100%;
-    height: 50%;
+    height: 100%;
 
 }
 
 .work-left{
     float: left;
     width: 50%;
+    height: 100%;
 }
 
 .LogoApp{
-
     width: 100%;
     height: 100%;
-    background-color: #ff0000;
+
 
 
 }
 
 .work-rigth{
     float: right;
-
+    height: 100%;
     width: 50%;
-    background-color: #0400ff;
+    margin-block: 15%;
+
 
 
     
 }
 
 .work-right-para{
-    margin-block: 200px;
+
+    margin-inline: 20%;
+
 
 }
